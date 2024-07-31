@@ -9,7 +9,7 @@ Booking
 <h1 class="text-center">Make An Appointment</h1>
 <hr>
 
-<div class="container w-50 text-center p-3 my-5 bg-info" >
+<div class="container w-50 text-center p-3 my-5" style="background-color: cadetblue;" >
     <form action="" method="POST">
         {% csrf_token %}
         {{form|crispy}}
