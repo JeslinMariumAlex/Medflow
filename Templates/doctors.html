@@ -12,8 +12,8 @@ Doctors
 
     {% for d in doctors %}
 
-    <div class="card text-center mx-3 my-3 " style="width: 18rem; display:inline-block ;">
-        <img src="{{d.doc_image.url}}" class="card-img-top" alt="...">
+    <div class="card text-center mx-3 my-3 " style="width: 18rem;  display:inline-block ;">
+        <img src="{{d.doc_image.url}}" class="card-img-top" style="height: 300px;" alt="...">
         <div class="card-body">
           <h5 class="card-title">Dr. {{d.doc_name}}</h5>
           <p class="card-text">{{d.doc_spec}}</p>
